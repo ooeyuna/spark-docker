@@ -38,5 +38,7 @@ ENV PYSPARK_PYTHON /usr/bin/python3
 ADD conf/spark-defaults.conf /data/spark/conf/spark-defaults.conf
 ADD conf/spark-env.sh /data/spark/conf/spark-env.sh
 
+EXPOSE 7077 8080
+
 WORKDIR /data/spark
 
